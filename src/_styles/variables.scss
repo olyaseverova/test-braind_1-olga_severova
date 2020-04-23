@@ -1,0 +1,32 @@
+$color-white: #ffffff;
+$color-black: #000000;
+$dark-gray: #383838;
+$dark-gray-29: #332F29;
+$light-gray: #F7F7F7;
+$light-gray-e7: #E8E7E7;
+$light-gray-ea: #EBEBEA;
+$light-gray-f2: #F2F2F2;
+$light-gray-97: #979797;
+$light-gray-a0: #A0A0A0;
+$gray: #AFAFAF;
+$orange: #FF6D00;
+$green: #50AD01;
+
+$desktop-width: 1000px;
+
+
+%flex-wrap-space {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+%flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+%flex-space {
+	display: flex;
+	justify-content: space-between;
+}

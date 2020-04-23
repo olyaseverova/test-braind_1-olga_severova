@@ -1,0 +1,19 @@
+body {
+	min-width: 320px;
+	padding-top: 71px;
+	font-family: 'Open Sans', sans-serif;
+
+	@media (min-width: $desktop-width) {
+		width: 930px;
+		margin: 0 auto;
+		padding-top: 131px;
+	}
+}
+
+.up {
+	text-transform: uppercase;
+}
+
+.list {
+	list-style: none;
+}
